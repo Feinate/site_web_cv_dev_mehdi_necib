@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+  	font-family: "Oswald",monospace;
+}
+body{
+    margin: 0;
+}
+@media screen and (max-width: 896px)
+{
+    img{
+        width: 10%;
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    #menu{
+        height: 104.85px; 
+    }
+    #bar{
+        float: right;
+        margin-top: 42px;
+        margin-right: 20px;
+        cursor: pointer;
+        height: 45px;
+        padding: 10px;
+        transition: 0.5s;
+    }
+    .bar1, .bar2, .bar3{
+        width: 40px;
+        height: 5px;
+        margin-bottom: 5px;
+        background-color: black;
+    }
+    .change .bar1{
+        transform: rotate(45deg);
+        margin-bottom: -5px;
+        margin-top: 10px;
+        transition: 0.5s ease-out;
+    }
+    .change .bar2{
+        opacity: 0;
+        transition: opacity 0.5s ease-out;
+
+    }
+    .change .bar3{
+        transform: rotate(-45deg);
+        margin-top: -10px;
+        transition: 0.5s ease-out;
+    }
+}

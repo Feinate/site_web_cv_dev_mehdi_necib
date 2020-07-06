@@ -1,0 +1,67 @@
+#corp3{
+	background-color:white;
+	padding: 35px 0;
+	max-width: 100%;
+	box-shadow:0px 0px 10px 0px rgb(204, 204, 204);
+	font-family: 'oswald', monospace;
+}
+.mes_formations_text{
+	text-align: center;
+	font-family: 'oswald', monospace;
+	font-weight: 200;
+	color: black;
+	font-size: 30px;
+	line-height: 70px;
+	letter-spacing: 1px;
+}
+.mes_formations_separation{
+	content:"";
+	margin:0 auto;
+	height: 2px;
+	background-color:black;
+	border-radius: 5px;
+	margin-top: 10px;
+	animation:ligne 3.5s ;
+	animation-fill-mode: forwards;
+	margin-bottom: 50px;
+}
+.mes_formations_bloc{
+	width: 88%;
+	margin: 0 auto;
+}
+.aujourdhui{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	background-color: #855196;
+	height: 33px;
+	border-radius: 5px;
+	width: 90px;
+}
+.traitun{
+	height: 60px;
+	background-color: black;
+	width: 1px;
+	margin: 0 auto;	
+	margin-top: 10px;
+}
+.Developpeur_web_OC{
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 10px;
+	font-weight: 200;	
+}
+.dedisnef{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	background-color: #855196;
+	height: 33px;
+	border-radius: 5px;
+	width: 65px;
+	margin-top: 10px;
+}
